@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements Dialog.OnDialogCl
         setContentView(R.layout.activity_main);
         dialog = new Dialog();
         dialog.setListener(this);
-        dialog.add("eeee", R.drawable.icn_5);
         button=(Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
